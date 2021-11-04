@@ -1,0 +1,1 @@
+# Django tutorial from offical website of Django
