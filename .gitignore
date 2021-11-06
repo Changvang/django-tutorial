@@ -9,3 +9,7 @@ mysite/db.sqlite3
 mysite/mysite/test
 
 mysite/mysite/.env
+
+migrations/
+
+test/
