@@ -19,4 +19,4 @@ before_script:
 test:
   script:
     - pip install -r requirement.txt
-    - python SECRET_KEY=django-insecure-%$ejym00pt^f!)%z=zy$&3y2z5*3_y_1z2pwvhfda0t7l^r9gu mysite/manage.py test polls
+    - python SECRET_KEY="django-insecure-%$ejym00pt^f!)%z=zy$&3y2z5*3_y_1z2pwvhfda0t7l^r9gu" mysite/manage.py test polls
