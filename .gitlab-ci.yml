@@ -19,4 +19,6 @@ before_script:
 test:
   script:
     - pip install -r requirement.txt
-    - python  mysite/manage.py test polls
+    - python mysite/manage.py makemigrations
+    - python mysite/manage.py migrate
+    - python mysite/manage.py test polls
