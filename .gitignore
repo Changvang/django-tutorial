@@ -13,3 +13,5 @@ mysite/mysite/.env
 migrations/
 
 test/
+
+.vscode/

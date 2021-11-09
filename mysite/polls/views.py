@@ -78,3 +78,9 @@ def vote(request, question_id):
         selected_choice.votes += 1
         selected_choice.save()
         return HttpResponseRedirect(reverse('polls:results', args=(question.id,)))
+
+def demo(request):
+    #return HttpResponse("Hello, world. You're at the polls index")
+    template = loader.get_template("polls/demo.html")
+    print(request.GET.get('code'))
+    return HttpResponse(template.render())
